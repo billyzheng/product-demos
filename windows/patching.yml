@@ -1,8 +1,8 @@
 ---
 - name: Windows updates
-  hosts: windows_group
+  hosts: windows_domain
   vars:
-    report_server: 10.0.0.8
+    report_server: 10.0.0.9
 
   tasks:
     - name: Patch windows server
