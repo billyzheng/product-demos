@@ -26,8 +26,8 @@ collections:
   - name: amazon.aws
     version: 5.2.0
   # satellite
-  - name: redhat.satellite
-    version: 3.8.0
+  #- name: redhat.satellite
+  #  version: 3.8.0
   # network
   - name: cisco.ios
     version: 4.4.0
