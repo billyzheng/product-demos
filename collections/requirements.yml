@@ -9,8 +9,8 @@ collections:
     version: 1.5.4
   - name: redhatinsights.insights
     version: 1.0.7
-  - name: redhat.rhel_system_roles
-    version: 1.20.0
+  #- name: redhat.rhel_system_roles
+  #  version: 1.20.0
   - name: community.general
     version: 6.3.0
   - name: containers.podman
