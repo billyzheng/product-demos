@@ -1,8 +1,8 @@
 ---
 - name: Windows updates
-  hosts: "{{ _hosts | default('os_windows') }}"
+  hosts: windows_group
   vars:
-    report_server: win1
+    report_server: 10.0.0.8
 
   tasks:
     - name: Patch windows server
